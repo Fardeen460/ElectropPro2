@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f4f6fb 0%, #e3e9f7 100%);
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+.App {
+  width: 100%;
+  overflow-x: hidden;
+}

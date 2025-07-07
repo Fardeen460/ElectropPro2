@@ -1,0 +1,60 @@
+/* Header.css */
+/* Modern Header Styling */
+.header {
+  background: linear-gradient(90deg, #232526 0%, #414345 100%);
+  color: #fff;
+  padding: 1.5rem 0 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 16px rgba(44,62,80,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px; /* increased gap between logo and text */
+  flex-direction: row;
+  margin-bottom: 1rem; /* more space below logo container */
+}
+
+.logo-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(26,35,126,0.10);
+}
+
+/* Navigation styles */
+.nav {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem; /* increased gap between nav links */
+  flex-wrap: wrap; /* so nav links don’t overflow on small screens */
+}
+
+.nav a {
+  color: #e3e9f7;
+  text-decoration: none;
+  font-size: 1.18rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.nav a:hover {
+  color: #fff;
+  background: #1976d2;
+}
