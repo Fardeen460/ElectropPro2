@@ -14,6 +14,13 @@ app.use(express.json());
 
 app.use('/api/v1', PostRoute);
 
+app.get('/', (req, res) => {
+  res.send({
+    activeStatus:true,
+    error:false,
+  })
+});
+
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
