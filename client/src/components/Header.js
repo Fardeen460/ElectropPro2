@@ -1,4 +1,4 @@
-import platingImage from '../assets/plating-hero.jpg';
+// import platingImage from '../assets/plating-hero.jpg';
 import electroLogo from '../assets/electro-logo.png';
 import React from 'react';
 import './Header.css';
